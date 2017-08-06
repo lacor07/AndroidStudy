@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+   <ImageView
+       android:id="@+id/listview_second_im"
+       android:layout_width="40sp"
+       android:layout_height="40sp"
+       android:background="@drawable/listview_second_item"
+       />
+   <TextView
+       android:id="@+id/listview_second_tv"
+       android:layout_width="fill_parent"
+       android:layout_height="40sp"
+       android:text="111"
+       android:textSize="20sp"
+       />
+</LinearLayout>
